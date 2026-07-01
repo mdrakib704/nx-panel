@@ -1,9 +1,9 @@
 import Fastify from 'fastify';
-import fastifyCors from 'fastify-cors';
-import fastifyHelmet from 'fastify-helmet';
-import fastifyJwt from 'fastify-jwt';
-import fastifyStatic from 'fastify-static';
-import fastifyWebsocket from 'fastify-websocket';
+import fastifyCors from '@fastify/cors';
+import fastifyHelmet from '@fastify/helmet';
+import fastifyJwt from '@fastify/jwt';
+import fastifyStatic from '@fastify/static';
+import fastifyWebsocket from '@fastify/websocket';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
