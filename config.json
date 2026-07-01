@@ -1,0 +1,49 @@
+{
+  "port": 3000,
+  "jwtSecret": "your-super-secret-jwt-key-change-in-production-please",
+  "panelName": "NX Panel",
+  "panelVersion": "1.0.0",
+  "maxLoginAttempts": 5,
+  "lockoutDuration": 900000,
+  "tokenRefreshInterval": 3600000,
+  "defaultServerRam": 3072,
+  "defaultServerCpu": 100,
+  "defaultServerStorage": 10240,
+  "maxServersPerUser": 1,
+  "dailyRewardCoins": 10,
+  "referralRewardCoins": 50,
+  "enableAds": true,
+  "enableCoins": true,
+  "enableBackups": true,
+  "backupRetentionDays": 30,
+  "backupScheduleInterval": 86400000,
+  "maintenanceMode": false,
+  "databasePath": "./database/panel.db",
+  "logsPath": "./logs",
+  "uploadsPath": "./uploads",
+  "backupsPath": "./backups",
+  "serversPath": "./servers",
+  "backgroundsPath": "./backgrounds",
+  "maxFileUploadSize": 104857600,
+  "allowedFileTypes": [
+    ".jar",
+    ".zip",
+    ".yml",
+    ".yaml",
+    ".properties",
+    ".json",
+    ".txt"
+  ],
+  "allowedVideoFormats": [
+    ".mp4",
+    ".webm"
+  ],
+  "sessionTimeout": 86400000,
+  "rateLimitWindowMs": 900000,
+  "rateLimitMaxRequests": 100,
+  "corsOrigins": [
+    "http://localhost:3000"
+  ],
+  "twoFactorEnabled": false,
+  "rememberMeDays": 30
+}
