@@ -1,0 +1,38 @@
+{
+  "name": "nx-panel",
+  "version": "1.0.0",
+  "description": "Lightweight Minecraft Server Hosting Panel - Production Ready",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "hosting",
+    "panel",
+    "fastify",
+    "lightweight"
+  ],
+  "author": "NX Panel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "fastify-cors": "^8.5.0",
+    "fastify-helmet": "^11.1.1",
+    "fastify-jwt": "^7.2.4",
+    "fastify-static": "^6.12.0",
+    "fastify-websocket": "^0.11.1",
+    "better-sqlite3": "^9.2.2",
+    "bcrypt": "^5.1.1",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.5",
+    "joi": "^17.11.0"
+  }
+}
